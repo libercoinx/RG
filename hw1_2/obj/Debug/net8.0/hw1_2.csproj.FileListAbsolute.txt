@@ -1,0 +1,14 @@
+D:\KikiioFiles\program\cs\hw1_2\bin\Debug\net8.0\hw1_2.exe
+D:\KikiioFiles\program\cs\hw1_2\bin\Debug\net8.0\hw1_2.deps.json
+D:\KikiioFiles\program\cs\hw1_2\bin\Debug\net8.0\hw1_2.runtimeconfig.json
+D:\KikiioFiles\program\cs\hw1_2\bin\Debug\net8.0\hw1_2.dll
+D:\KikiioFiles\program\cs\hw1_2\bin\Debug\net8.0\hw1_2.pdb
+D:\KikiioFiles\program\cs\hw1_2\obj\Debug\net8.0\hw1_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\KikiioFiles\program\cs\hw1_2\obj\Debug\net8.0\hw1_2.AssemblyInfoInputs.cache
+D:\KikiioFiles\program\cs\hw1_2\obj\Debug\net8.0\hw1_2.AssemblyInfo.cs
+D:\KikiioFiles\program\cs\hw1_2\obj\Debug\net8.0\hw1_2.csproj.CoreCompileInputs.cache
+D:\KikiioFiles\program\cs\hw1_2\obj\Debug\net8.0\hw1_2.dll
+D:\KikiioFiles\program\cs\hw1_2\obj\Debug\net8.0\refint\hw1_2.dll
+D:\KikiioFiles\program\cs\hw1_2\obj\Debug\net8.0\hw1_2.pdb
+D:\KikiioFiles\program\cs\hw1_2\obj\Debug\net8.0\hw1_2.genruntimeconfig.cache
+D:\KikiioFiles\program\cs\hw1_2\obj\Debug\net8.0\ref\hw1_2.dll
