@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\KikiioFiles\\program\\cs\\hw1_1\\",
+  "WorkspaceRootPath": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC352FE3-938B-41DF-A0FB-F2772E06615C}|hw1_1.csproj|d:\\kikiiofiles\\program\\cs\\hw1_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC352FE3-938B-41DF-A0FB-F2772E06615C}|hw1_1.csproj|d:\\kikiiofiles\\program\\cs\\rg\\hw1_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC352FE3-938B-41DF-A0FB-F2772E06615C}|hw1_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\KikiioFiles\\program\\cs\\hw1_1\\Program.cs",
+              "DocumentMoniker": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\KikiioFiles\\program\\cs\\hw1_1\\Program.cs",
+              "ToolTip": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_1\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\KikiioFiles\\program\\cs\\hw1_2\\",
+  "WorkspaceRootPath": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33C4CE96-4057-441E-9FB7-3FFD82C1E064}|hw1_2.csproj|d:\\kikiiofiles\\program\\cs\\hw1_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33C4CE96-4057-441E-9FB7-3FFD82C1E064}|hw1_2.csproj|d:\\kikiiofiles\\program\\cs\\rg\\hw1_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33C4CE96-4057-441E-9FB7-3FFD82C1E064}|hw1_2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33C4CE96-4057-441E-9FB7-3FFD82C1E064}|hw1_2.csproj|d:\\kikiiofiles\\program\\cs\\hw1_2\\hw1_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{33C4CE96-4057-441E-9FB7-3FFD82C1E064}|hw1_2.csproj|d:\\kikiiofiles\\program\\cs\\rg\\hw1_2\\hw1_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{33C4CE96-4057-441E-9FB7-3FFD82C1E064}|hw1_2.csproj|solutionrelative:hw1_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -18,19 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "hw1_2.csproj",
-              "DocumentMoniker": "D:\\KikiioFiles\\program\\cs\\hw1_2\\hw1_2.csproj",
+              "DocumentMoniker": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_2\\hw1_2.csproj",
               "RelativeDocumentMoniker": "hw1_2.csproj",
-              "ToolTip": "D:\\KikiioFiles\\program\\cs\\hw1_2\\hw1_2.csproj",
+              "ToolTip": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_2\\hw1_2.csproj",
               "RelativeToolTip": "hw1_2.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -40,14 +36,18 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\KikiioFiles\\program\\cs\\hw1_2\\Program.cs",
+              "DocumentMoniker": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\KikiioFiles\\program\\cs\\hw1_2\\Program.cs",
+              "ToolTip": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwDIAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T02:50:41.12Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

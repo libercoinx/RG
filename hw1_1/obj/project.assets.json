@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\KikiioFiles\\program\\cs\\hw1_1\\hw1_1.csproj",
+      "projectUniqueName": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_1\\hw1_1.csproj",
       "projectName": "hw1_1",
-      "projectPath": "D:\\KikiioFiles\\program\\cs\\hw1_1\\hw1_1.csproj",
+      "projectPath": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_1\\hw1_1.csproj",
       "packagesPath": "C:\\Users\\maroo\\.nuget\\packages\\",
-      "outputPath": "D:\\KikiioFiles\\program\\cs\\hw1_1\\obj\\",
+      "outputPath": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\LeStoreDownload\\VisualStudio\\shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KikiioFiles\\program\\cs\\hw1_2\\hw1_2.csproj": {}
+    "D:\\KikiioFiles\\program\\cs\\RG\\hw1_2\\hw1_2.csproj": {}
   },
   "projects": {
-    "D:\\KikiioFiles\\program\\cs\\hw1_2\\hw1_2.csproj": {
+    "D:\\KikiioFiles\\program\\cs\\RG\\hw1_2\\hw1_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KikiioFiles\\program\\cs\\hw1_2\\hw1_2.csproj",
+        "projectUniqueName": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_2\\hw1_2.csproj",
         "projectName": "hw1_2",
-        "projectPath": "D:\\KikiioFiles\\program\\cs\\hw1_2\\hw1_2.csproj",
+        "projectPath": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_2\\hw1_2.csproj",
         "packagesPath": "C:\\Users\\maroo\\.nuget\\packages\\",
-        "outputPath": "D:\\KikiioFiles\\program\\cs\\hw1_2\\obj\\",
+        "outputPath": "D:\\KikiioFiles\\program\\cs\\RG\\hw1_2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\LeStoreDownload\\VisualStudio\\shared\\NuGetPackages"
