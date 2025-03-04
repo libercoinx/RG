@@ -60,6 +60,7 @@ namespace myApp
     {
         static void Main(string[] args)
         {
+            //创建十个Shape
             Shape[] shapes =
             {
                 new Square(1.25f),
@@ -74,6 +75,7 @@ namespace myApp
                 new Rectangle(4f, 3f)
             };
 
+            //计算总面积
             float totalArea = shapes.Sum(s => s.getArea());
             Console.WriteLine($"总面积为 : {totalArea}");
         }
