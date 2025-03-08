@@ -6,7 +6,7 @@ namespace clock
 {
     public delegate void TickEvent(DateTime time);
     public delegate void AlarmEvent();
-     public class Clock
+    public class Clock
     {
         private DateTime currentTime;
         private DateTime alarmTime;
