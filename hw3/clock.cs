@@ -1,0 +1,51 @@
+﻿using System;
+using System.Diagnostics;
+using System.Threading;
+
+namespace clock
+{
+    public delegate void TickEvent(DateTime time);
+    public delegate void AlarmEvent();
+     public class Clock
+    {
+        private DateTime currentTime;
+        private DateTime alarmTime;
+        public TickEvent? OnTick;
+        public AlarmEvent? OnAlarm;
+
+        public Clock()
+        {
+            currentTime = DateTime.Now;
+            alarmTime = new DateTime(2077, 1, 1);
+            timerRun();
+        }
+
+        public void setAlarm(int hour, int min, int sec)
+        {
+            alarmTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, hour, min, sec);
+        }
+
+        public void timerRun()
+        {
+            System.Threading.Timer timer = new System.Threading.Timer(_ =>
+            {
+                //一秒刷新一次
+                currentTime = DateTime.Now;
+                if (OnTick != null) OnTick(currentTime);    //刷新winform时间显示
+                if ((OnAlarm != null) && (currentTime.ToString("yyyy-MM-dd HH:mm:ss") == alarmTime.ToString("yyyy-MM-dd HH:mm:ss")))
+                {
+                    OnAlarm();
+                    Debug.WriteLine("Alarming from timer");    //触发响铃
+                }
+            }, null, 0, 1000);
+            //System.Threading.Timer timer1 = new System.Threading.Timer(_ =>
+            //{
+            //    if ((OnAlarm != null) && (currentTime.ToString("yyyy-MM-dd HH:mm:ss") == alarmTime.ToString("yyyy-MM-dd HH:mm:ss")))
+            //    {
+            //        OnAlarm();
+            //        Debug.WriteLine("Alarming from timer");    //触发响铃
+            //    }
+            //}, null, 0, 1);
+        }
+    }
+}
