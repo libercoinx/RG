@@ -9,6 +9,7 @@ namespace hw3
         public Form1()
         {
             myClock = new Clock();
+
             InitializeComponent();
 
             //°ó¶¨ÊÂ¼þ

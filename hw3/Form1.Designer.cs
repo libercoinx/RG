@@ -160,6 +160,7 @@
             minIn.BorderStyle = BorderStyle.FixedSingle;
             minIn.Font = new Font("Lucida Fax", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             minIn.Location = new Point(335, 274);
+            minIn.Maximum = new decimal(new int[] { 59, 0, 0, 0 });
             minIn.MaximumSize = new Size(80, 0);
             minIn.MinimumSize = new Size(80, 0);
             minIn.Name = "minIn";
@@ -171,6 +172,7 @@
             secIn.BorderStyle = BorderStyle.FixedSingle;
             secIn.Font = new Font("Lucida Fax", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             secIn.Location = new Point(505, 274);
+            secIn.Maximum = new decimal(new int[] { 59, 0, 0, 0 });
             secIn.MaximumSize = new Size(80, 0);
             secIn.MinimumSize = new Size(80, 0);
             secIn.Name = "secIn";
