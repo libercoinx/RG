@@ -36,7 +36,8 @@ namespace hw3
         {
             Debug.WriteLine("Alarm Set!");
             myClock.setAlarm((int)hourIn.Value, (int)minIn.Value, (int)secIn.Value);
-            alarmLabel.Visible = false;
+            alarmLabel.Visible = false;    //显示“时间到”
+            alarmTimeLabel.Text = hourIn.Value.ToString() + " : " + minIn.Value.ToString() + " : " + secIn.Value.ToString();    //设置ui界面显示的闹铃时间
         }
     }
 }

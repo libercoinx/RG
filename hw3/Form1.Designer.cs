@@ -41,6 +41,8 @@
             label3 = new Label();
             setButton = new Button();
             alarmLabel = new Label();
+            alarmTimeLabel = new Label();
+            label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)hourIn).BeginInit();
             ((System.ComponentModel.ISupportInitialize)minIn).BeginInit();
             ((System.ComponentModel.ISupportInitialize)secIn).BeginInit();
@@ -67,7 +69,8 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(260, 274);
+            label1.ForeColor = SystemColors.ControlDarkDark;
+            label1.Location = new Point(290, 334);
             label1.MaximumSize = new Size(0, 30);
             label1.MinimumSize = new Size(0, 30);
             label1.Name = "label1";
@@ -147,7 +150,7 @@
             // 
             hourIn.BorderStyle = BorderStyle.FixedSingle;
             hourIn.Font = new Font("Lucida Fax", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            hourIn.Location = new Point(165, 274);
+            hourIn.Location = new Point(195, 334);
             hourIn.Maximum = new decimal(new int[] { 23, 0, 0, 0 });
             hourIn.MaximumSize = new Size(80, 0);
             hourIn.MinimumSize = new Size(80, 0);
@@ -159,7 +162,7 @@
             // 
             minIn.BorderStyle = BorderStyle.FixedSingle;
             minIn.Font = new Font("Lucida Fax", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            minIn.Location = new Point(335, 274);
+            minIn.Location = new Point(345, 334);
             minIn.Maximum = new decimal(new int[] { 59, 0, 0, 0 });
             minIn.MaximumSize = new Size(80, 0);
             minIn.MinimumSize = new Size(80, 0);
@@ -171,7 +174,7 @@
             // 
             secIn.BorderStyle = BorderStyle.FixedSingle;
             secIn.Font = new Font("Lucida Fax", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            secIn.Location = new Point(505, 274);
+            secIn.Location = new Point(495, 334);
             secIn.Maximum = new decimal(new int[] { 59, 0, 0, 0 });
             secIn.MaximumSize = new Size(80, 0);
             secIn.MinimumSize = new Size(80, 0);
@@ -183,7 +186,8 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(430, 274);
+            label2.ForeColor = SystemColors.ControlDarkDark;
+            label2.Location = new Point(440, 334);
             label2.MaximumSize = new Size(0, 30);
             label2.MinimumSize = new Size(0, 30);
             label2.Name = "label2";
@@ -195,7 +199,8 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(600, 274);
+            label3.ForeColor = SystemColors.ControlDarkDark;
+            label3.Location = new Point(590, 334);
             label3.MaximumSize = new Size(0, 30);
             label3.MinimumSize = new Size(0, 30);
             label3.Name = "label3";
@@ -208,7 +213,7 @@
             setButton.BackColor = SystemColors.ButtonFace;
             setButton.Cursor = Cursors.Hand;
             setButton.Font = new Font("Modern No. 20", 11.999999F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            setButton.Location = new Point(352, 377);
+            setButton.Location = new Point(352, 407);
             setButton.Margin = new Padding(0);
             setButton.Name = "setButton";
             setButton.Size = new Size(112, 40);
@@ -235,11 +240,44 @@
             alarmLabel.TextAlign = ContentAlignment.MiddleCenter;
             alarmLabel.Visible = false;
             // 
+            // alarmTimeLabel
+            // 
+            alarmTimeLabel.AutoSize = true;
+            alarmTimeLabel.BackColor = SystemColors.ControlLight;
+            alarmTimeLabel.BorderStyle = BorderStyle.Fixed3D;
+            alarmTimeLabel.Font = new Font("Lucida Fax", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            alarmTimeLabel.Location = new Point(341, 255);
+            alarmTimeLabel.Margin = new Padding(3);
+            alarmTimeLabel.MaximumSize = new Size(250, 40);
+            alarmTimeLabel.MinimumSize = new Size(250, 40);
+            alarmTimeLabel.Name = "alarmTimeLabel";
+            alarmTimeLabel.Size = new Size(250, 40);
+            alarmTimeLabel.TabIndex = 15;
+            alarmTimeLabel.Text = "00 : 00 : 00";
+            alarmTimeLabel.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = SystemColors.ControlLightLight;
+            label7.BorderStyle = BorderStyle.Fixed3D;
+            label7.Font = new Font("等线", 10.5F, FontStyle.Italic, GraphicsUnit.Point, 134);
+            label7.ForeColor = SystemColors.ControlDarkDark;
+            label7.Location = new Point(224, 255);
+            label7.MaximumSize = new Size(0, 40);
+            label7.Name = "label7";
+            label7.Padding = new Padding(0, 8, 0, 8);
+            label7.Size = new Size(117, 40);
+            label7.TabIndex = 16;
+            label7.Text = "响铃时间：";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 505);
+            Controls.Add(label7);
+            Controls.Add(alarmTimeLabel);
             Controls.Add(alarmLabel);
             Controls.Add(setButton);
             Controls.Add(label3);
@@ -277,5 +315,7 @@
         private Label label3;
         private Button setButton;
         private Label alarmLabel;
+        private Label alarmTimeLabel;
+        private Label label7;
     }
 }
